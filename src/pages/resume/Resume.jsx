@@ -12,6 +12,8 @@ import { useTheme } from '@emotion/react';
 import { tokens } from '../../theme';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import LanguageIcon from '@mui/icons-material/Language';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Sidebar = styled(Paper)({
     height: '100%',
@@ -160,13 +162,14 @@ const Resume = () => {
                                 {cvData.shortDesc}
                             </Typography>
                             <Divider sx={{ my: 2 }} />
-                            {/* <PartialUnderlineTypographySideBar fontSize='1.8rem' fontWeight='600' textTransform='' mb='1.2rem' letterSpacing='0.06rem'>
+                            <PartialUnderlineTypographySideBar fontSize='1.8rem' fontWeight='600' textTransform='' mb='1.2rem' letterSpacing='0.06rem'>
                                 Portfolio links
                             </PartialUnderlineTypographySideBar>
-                            <Box>
-
-                            </Box> */}
-                            {/* <Divider sx={{ my: 2 }} /> */}
+                            <Box display='flex' flexDirection='row'>
+                                <a href={cvData.portfolio} target="_blank"><LanguageIcon sx={{ mr: '1rem', color: '#fff', fontSize: '3rem', cursor: 'pointer' }} /></a>
+                                <a href={cvData.github} target="_blank"><GitHubIcon sx={{ mr: '1rem', color: '#fff', fontSize: '3rem', cursor: 'pointer' }} /></a>
+                            </Box>
+                            <Divider sx={{ my: 2 }} />
                             <PartialUnderlineTypographySideBar fontSize='1.8rem' fontWeight='600' textTransform='' mb='1.2rem' letterSpacing='0.06rem' >
                                 Contact Details
                             </PartialUnderlineTypographySideBar>
@@ -276,7 +279,7 @@ const Resume = () => {
                     </Grid>
                 </Grid>
             </Box >
-        </Box>
+        </Box >
     );
 
 };
