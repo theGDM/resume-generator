@@ -220,8 +220,8 @@ const Resume = () => {
                             {cvData.education.map((edu) => (
                                 <Box display='flex' flexDirection='row' width='100%'>
                                     <SchoolIcon sx={{ mr: '1rem', color: '#6C63FF', fontSize: '3rem' }} />
-                                    <Box key={edu.course} mb={2}>
-                                        <Box display='flex' flexDirection='row' justifyContent='space-between' alignItems='center' width='100%'>
+                                    <Box key={edu.course} mb={2} width='100%'>
+                                        <Box display='flex' flexDirection='row' justifyContent='space-between' alignItems='center'>
                                             <Typography fontSize='1.4rem' fontWeight="bold" letterSpacing='0.3'>
                                                 {edu.course}
                                             </Typography>
