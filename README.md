@@ -1,14 +1,9 @@
 ## **Website View :**
-![Screenshot 2024-07-22 175412](https://github.com/user-attachments/assets/b90d4beb-4d89-4ef7-a615-83aa52b024a0)
-![Screenshot 2024-07-22 175936](https://github.com/user-attachments/assets/cb43a1df-67fd-430f-b0ef-4d345e894965)
-![Screenshot 2024-07-22 180030](https://github.com/user-attachments/assets/a8c8ee52-095a-41f9-b10b-5179d10a3f52)
-
-## **Mobile View :**
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/8508855f-de51-40a0-b64a-3bf19480ea25" width="320" />
-  <img src="https://github.com/user-attachments/assets/255cb1d8-2302-43b1-9933-b563462c5d2c" width="320" /> 
-  <img src="https://github.com/user-attachments/assets/f2befe65-78ff-4091-806e-b260355e1e2d" width="320" /> 
-</p>
+![Screenshot 2024-08-07 000231](https://github.com/user-attachments/assets/a018d675-35f5-48e9-a09a-002a0e7d98a4)
+![Screenshot 2024-08-07 000254](https://github.com/user-attachments/assets/bbd08b61-1455-44db-97e4-d84228fe919b)
+![Screenshot 2024-08-07 000200](https://github.com/user-attachments/assets/b883f862-9523-4e38-b17a-6c523c0c71c8)
+![Screenshot 2024-08-06 235843](https://github.com/user-attachments/assets/908e662f-0930-495e-9bdb-c1fb4b88a2c8)
+![Screenshot 2024-08-07 000431](https://github.com/user-attachments/assets/38eed0c1-91c8-4e9f-ad1e-ed6da543f11c)
 
 ## **Tech Used :**
 **Frontend:** `React.js` `CSS` `Redux` `Material UI`
