@@ -41,10 +41,11 @@
 6. Now run the react app using the command `npm start`.
 
 
-**`Github Link :`** https://github.com/theGDM/resume-generator
+**`Github Link Frontend UI:`** https://github.com/theGDM/resume-generator
+**`Github Link Backend-Service:`** https://github.com/theGDM/resume-generator-service
 
 
 ## **Steps to Run the Application (Production):**
 
 1. The application is deployed on the AWS Amplify.
-    - > https://main.d3rbklfneqbb62.amplifyapp.com/
+    - > https://main.d2fbbg6q705lby.amplifyapp.com/
