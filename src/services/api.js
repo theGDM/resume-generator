@@ -28,6 +28,47 @@ export const signIn = async (email, password) => {
     }
 }
 
+export const createResume = async (userId, body) => {
+    try {
+        let response = await axios.post(`${baseURL}/api/resumes/${userId}`, body);
+        toast('Resume created successfully!');
+    } catch (err) {
+        console.log(err);
+        toast('Some error occured while creating the resume!');
+    }
+}
+
+export const updateResume = async (resumeId, body) => {
+    try {
+        let response = await axios.put(`${baseURL}/api/resumes/${resumeId}`, body);
+        toast('Resume updated successfully!');
+    } catch (err) {
+        console.log(err);
+        toast('Some error occured while upadting the resume!');
+    }
+}
+
+export const deleteResume = async (resumeId) => {
+    try {
+        let response = await axios.delete(`${baseURL}/api/resumes/${resumeId}`);
+        toast('Resume deleted successfully created!');
+    } catch (err) {
+        console.log(err);
+        toast('Some error occured while deleting the resume!');
+    }
+}
+
+
+export const getAllResumes = async (userId) => {
+    try {
+        let response = await axios.get(`${baseURL}/api/resumes/${userId}/resume`);
+        return response;
+    } catch (err) {
+        console.log(err);
+        toast('Some error occured while getting the resumes!');
+    }
+}
+
 export const getUser = async (email) => {
     try {
         let response = await axios.get(`${baseURL}/api/users/${email}`);
