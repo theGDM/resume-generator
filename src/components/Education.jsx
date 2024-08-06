@@ -55,6 +55,7 @@ function Education() {
         setInstitute('');
         setDuration('');
         setSubject('');
+        toast('Details verified and added successfully.');
     }
 
     return (

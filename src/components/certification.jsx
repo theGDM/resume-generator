@@ -47,6 +47,7 @@ function Certification() {
         setTitle('');
         setType('');
         setDescription('');
+        toast('Details verified and added successfully.');
     }
 
     return (

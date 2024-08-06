@@ -45,7 +45,7 @@ function NewResume() {
         await createResume(userId, resume);
         dispatch(fetchResumesData(userId));
         setResumeCreated(false);
-        // navigate('/dashboard');
+        navigate('/dashboard');
     }
 
     useEffect(() => {

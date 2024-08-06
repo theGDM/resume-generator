@@ -32,6 +32,7 @@ function PortfolioLinks() {
         }
 
         dispatch(SetPortfolioLinks(portfolioLinks));
+        toast('Details verified and added successfully.');
     }
 
     return (
@@ -206,7 +207,7 @@ function PortfolioLinks() {
 
                     onClick={verfifyPortfolioLinks}
                 >
-                    Verify
+                    Verify & Add
                 </Button>
             </Box>
                 : <Box display='flex' justifyContent='center' alignItems='center'>

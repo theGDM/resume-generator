@@ -39,6 +39,7 @@ function Skill() {
 
         setTitle('');
         SetSkills(0);
+        toast('Details verified and added successfully.');
     }
 
 

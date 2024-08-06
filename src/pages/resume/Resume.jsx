@@ -37,7 +37,7 @@ const SkillsBar = styled(Box)(({ percentage }) => ({
         content: '""',
         display: 'block',
         height: '100%',
-        width: `${percentage}%`,
+        width: `${percentage * 10}%`,
         backgroundColor: '#6C63FF',
     },
 }));

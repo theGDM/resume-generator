@@ -61,6 +61,7 @@ function PersonalDetails() {
         }
 
         dispatch(SetPersonalDetails(personalDetails));
+        toast('Details verified and added successfully.');
     }
 
     return (
@@ -296,7 +297,7 @@ function PersonalDetails() {
 
                     onClick={verfifyPersonalDetails}
                 >
-                    Verify
+                    Verify & Add
                 </Button>
             </Box>
                 : <Box display='flex' justifyContent='center' alignItems='center'>

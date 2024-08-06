@@ -56,6 +56,7 @@ function Experience() {
         setCompany('');
         setDuration('');
         setAcheivements('');
+        toast('Details verified and added successfully.');
     }
 
     return (
