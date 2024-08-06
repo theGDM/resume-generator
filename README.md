@@ -5,6 +5,14 @@
 ![Screenshot 2024-08-06 235843](https://github.com/user-attachments/assets/908e662f-0930-495e-9bdb-c1fb4b88a2c8)
 ![Screenshot 2024-08-07 000431](https://github.com/user-attachments/assets/38eed0c1-91c8-4e9f-ad1e-ed6da543f11c)
 
+## **Mobile View :**
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/4e9a7086-f60b-42c9-a86c-48434868f664" width="320" />
+  <img src="https://github.com/user-attachments/assets/1f102ebe-2086-4b10-a639-a678f5e208ec" width="320" /> 
+  <img src="https://github.com/user-attachments/assets/2a26245b-ec20-4183-8d1b-40d2c9a6401a" width="320" /> 
+  <img src="https://github.com/user-attachments/assets/2bac48e6-ae07-4964-abd0-2d9aced5db2d" width="320" /> 
+</p>
+
 ## **Tech Used :**
 **Frontend:** `React.js` `CSS` `Redux` `Material UI`
 
