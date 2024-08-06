@@ -163,7 +163,7 @@ export default function Login() {
                                 backgroundColor: colors.greenAccent[600], // Set your desired hover color
                             },
                             fontSize: '1.2rem',
-                            borderRadius: '0'
+                            borderRadius: '0.2rem'
                         }}
                         onClick={handleSubmit}
 
