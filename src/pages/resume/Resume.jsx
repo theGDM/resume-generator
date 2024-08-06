@@ -160,13 +160,13 @@ const Resume = () => {
                                 {cvData.shortDesc}
                             </Typography>
                             <Divider sx={{ my: 2 }} />
-                            <PartialUnderlineTypographySideBar fontSize='1.8rem' fontWeight='600' textTransform='' mb='1.2rem' letterSpacing='0.06rem'>
+                            {/* <PartialUnderlineTypographySideBar fontSize='1.8rem' fontWeight='600' textTransform='' mb='1.2rem' letterSpacing='0.06rem'>
                                 Portfolio links
                             </PartialUnderlineTypographySideBar>
                             <Box>
-                                {/* Add links to portfolio */}
-                            </Box>
-                            <Divider sx={{ my: 2 }} />
+
+                            </Box> */}
+                            {/* <Divider sx={{ my: 2 }} /> */}
                             <PartialUnderlineTypographySideBar fontSize='1.8rem' fontWeight='600' textTransform='' mb='1.2rem' letterSpacing='0.06rem' >
                                 Contact Details
                             </PartialUnderlineTypographySideBar>

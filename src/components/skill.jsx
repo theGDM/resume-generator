@@ -29,7 +29,7 @@ function Skill() {
         }
 
         let newSkill = {
-            title: title,
+            name: title,
             level: rate,
         }
 
@@ -175,8 +175,8 @@ function Skill() {
             </Box>
             {skills.map(skill => (
                 <Box width='30rem' bgcolor={colors.primary[700]} p='1rem' m='0.5rem 2rem'>
-                    <Typography fontSize='1.4rem' color={colors.greenAccent[400]}>{skill.title}</Typography>
-                    <Typography fontSize='1.3rem' color={colors.primary[200]}>{skill.rate}</Typography>
+                    <Typography fontSize='1.4rem' color={colors.greenAccent[400]}>{skill.name}</Typography>
+                    <Typography fontSize='1.3rem' color={colors.primary[200]}>{skill.level}</Typography>
                 </Box>
 
             ))}
